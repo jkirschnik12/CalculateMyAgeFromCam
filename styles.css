@@ -1,0 +1,35 @@
+/* body { */
+/*     margin: 0 */
+/*     text-align: center; */
+/*     background-color: purple; */
+/*     color:white; */
+/* } */
+/* button { */
+/*     padding: 5px; */
+/*     margin: 10px auto; */
+/*     font-size: medium; */
+/*     text-align: center; */
+/*     display: block; */
+/* } */
+/* input { */
+/*     widem; */
+/* } */
+/* #joe-age { */
+/*     display: inline-block; */
+/* } */
+/* h1 { */
+/*     margin: 0 auto; */
+/*     padding: 0px; */
+ 
+/* } */
+#joe-container {
+    display: inline;
+}
+
+#joe-age {
+    display: inline;
+}
+
+.inline {
+    display: inline-block;
+}

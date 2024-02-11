@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+  <title>Calculate Joe's Age</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <!--   <div class="d-flex gap-2 justify-content-center py-2"> -->
+  <!--     <label class="form-label" for="cam"><h1>What is Cam's current age?</h1></label> -->
+  <!--   </div> -->
+  <!--   <div class="col-sm-1 d-flex gap-2 justify-content-center align-items-center"> -->
+  <!--     <input type="number" min="0" max="100" name="cam" class="form-control"/> -->
+  <!--   </div> -->
+  <!-- <div class="d-flex gap-2 justify-content-center py-5"> -->
+  <!--   <button class="btn btn-primary rounded-pill px-3">Submit</button> -->
+  <!-- </div> -->
+  <!--   <p>Joe is <div id="joe-age"></div> years old</p> -->
+    <div class="container my-5">
+      <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <img class="img-fluid rounded p-4" style="height: 20rem" src="./pizzaCam.jpg"/>
+        <h1 class="text-body-emphasis">What is Cam's current age?</h1>
+        <!-- col-sm-1 d-flex gap-2 justify-content-center align-items-center -->
+        <div class="col-sm-2 mx-auto fs-5 p-3">
+          <input type="number" min="0" max="100" name="cam" class="form-control"/>
+        </div>
+        <div class="d-inline-flex gap-2 mb-2" id="btns">
+          <button id="calc" class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+            Calculate Joe's Age
+          </button>
+        </div>
+        <p class="fs-3" id='joe-container' style="display:none">
+          Joe is
+          <span id="joe-age"></span>
+          years old
+        </p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" integrity="sha512-aNMyYYxdIxIaot0Y1/PLuEu3eipGCmsEUBrUq+7aVyPGMFH8z0eTP0tkqAvv34fzN6z+201d3T8HPb1svWSKHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="index.js"></script>
+</body>
+</html>
